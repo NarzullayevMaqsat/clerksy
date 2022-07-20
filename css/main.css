@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Wrapper {
+  width: 1440px;
+  height: 7051px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+.Wrapper header {
+  background: #163A24;
+  width: 1440px;
+  height: 642px;
+  color: #fff;
+}
+.Wrapper header .logo {
+  cursor: pointer;
+}
+.Wrapper header .row {
+  width: 1440px;
+  height: 98px;
+  padding: 20px 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.Wrapper header .row .nav_ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.2rem;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.Wrapper header .row .nav_ul .nav-ul_li {
+  margin-left: 30px;
+}
+.Wrapper header .row .nav_ul .start {
+  width: 141px;
+  height: 52px;
+  text-align: center;
+  padding-top: 14px;
+  border-radius: 160px;
+  background: #198C36;
+  margin-top: -15px;
+}
+.Wrapper header .frame {
+  width: 1440px;
+  height: 544px;
+  padding: 120px 130px;
+  display: flex;
+}
+.Wrapper header .frame .frame_text {
+  width: 491px;
+  height: 294px;
+}
+.Wrapper header .frame .frame_text h2 {
+  font-size: 48px;
+  line-height: 68px;
+  margin-bottom: 18px;
+}
+.Wrapper header .frame .frame_text .desc {
+  font-size: 18px;
+  line-height: 27px;
+}
+.Wrapper header .frame .frame_image {
+  margin-top: -120px;
+  width: 738px;
+  overflow: hidden;
+  z-index: 1;
+  height: 540px;
+  background: url(../img/Frame.png);
+}
+.Wrapper main {
+  width: 1440px;
+  height: 6215px;
+  border: 1px solid #000;
+}
+.Wrapper main .main_frame {
+  width: 1440px;
+  height: 1225px;
+  margin-top: 120px;
+  padding: 0 230px;
+  color: #163A24;
+  margin-bottom: 180px;
+}
+.Wrapper main .main_frame .picture_one {
+  display: flex;
+}
+.Wrapper main .main_frame .picture_one p {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.Wrapper main .main_frame .picture_one .description {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Calibri";
+  line-height: 27px;
+}
+.Wrapper main .main_frame .picture_two {
+  display: flex;
+}
+.Wrapper main .main_frame .picture_two p {
+  font-size: 48px;
+  margin-right: 100px;
+  margin-top: 120px;
+  width: 376px;
+  height: 108px;
+  font-weight: 700;
+}
+.Wrapper main .main_frame .picture_two .descr {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Calibri";
+}
+.Wrapper .about-products {
+  background: #163A24;
+  width: 1440px;
+  height: 568px;
+  padding: 66px 10px;
+  color: #fff;
+  text-align: center;
+}
+.Wrapper .employers {
+  text-align: center;
+  width: 1440px;
+  height: 775px;
+  background: #F2EFE6;
+  padding: 114px 140px;
+  color: rgb(22, 58, 36);
+}
+.Wrapper .employers .big {
+  margin-bottom: 27px;
+}
+.Wrapper .something {
+  padding: 180px 130px;
+}/*# sourceMappingURL=main.css.map */

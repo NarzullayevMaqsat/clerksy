@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$wrapper_size: 7051px;
+$header_size: 642px;
+$main_size: 6215px;
+$footer_size: 194px;
+
+
+
+
+
+.Wrapper{
+    width: 1440px;
+    height: $wrapper_size;
+    border: 1px solid #000;
+    margin: 0 auto;
+
+
+    header{
+        background: #163A24;
+        width: 1440px;
+        height: $header_size;
+        color: #fff;
+
+        .logo{
+            cursor: pointer;
+        }
+
+        .row{
+            width: 1440px;
+            height: 98px;
+            // padding: 41px 140px;
+            padding: 20px 130px;
+            display: flex;
+            justify-content: space-between;
+
+            .nav_ul{
+                display: flex;
+                list-style: none;
+                font-size: 1.2rem;
+                padding-top: 15px;
+                cursor: pointer;
+
+
+
+                .nav-ul_li{
+                    margin-left: 30px;
+                }
+                .start{
+                    width: 141px;
+                    height: 52px;
+                    text-align: center;
+                    padding-top: 14px;
+                    border-radius: 160px;
+                    background: #198C36;
+                    margin-top: -15px;
+                }
+            }
+
+
+        }
+
+        .frame{
+            width: 1440px;
+            height: 544px;
+            padding: 120px 130px;
+            display: flex;
+
+            .frame_text{
+                width: 491px;
+                height: 294px;
+                
+                h2{
+                    font-size: 48px;
+                    line-height: 68px;
+                    margin-bottom: 18px;
+                }
+
+                .desc{
+                    font-size: 18px; 
+                    line-height: 27px;
+                }
+            }
+
+            .frame_image{
+                margin-top: -120px;
+                width: 738px;
+                overflow: hidden;
+                z-index: 1;
+                height: 540px;
+                background: url(../img/Frame.png);
+            }
+
+
+        }
+
+    }
+    main{
+        width: 1440px;
+        height: $main_size;
+        border: 1px solid #000;
+
+
+        .main_frame{
+            width: 1440px;
+            height: 1225px;
+            margin-top: 120px;
+            padding: 0 230px;
+            color: #163A24;
+            margin-bottom: 180px;
+
+
+
+            
+            .picture_one{
+                display: flex;
+                
+
+                p{
+                    font-size: 48px;
+                    font-weight: 700;
+                    margin-left: 100px;
+                    margin-top: 120px;
+                }
+                .description{
+                    margin-left: 100px;
+                    margin-top: 20px;
+                    font-size: 18px;
+                    font-family: 'Calibri';
+                    line-height: 27px;
+                }
+            }
+
+            .picture_two{
+                display: flex;
+
+
+                p{
+                    font-size: 48px;
+                    margin-right: 100px;
+                    margin-top: 120px;  
+                    width: 376px;
+                    height: 108px;
+                    font-weight: 700;
+                }
+
+                .descr{
+                    margin-top : 20px;
+                    font-size: 18px;
+                    line-height: 27px;
+                    font-family: 'Calibri';
+                }
+
+             
+            }
+
+
+            // .parners{
+            //     width: 1180px;
+            //     height: 293px;
+            //     margin: 0 230px;
+            //     border: 1px solid #000;
+
+            //     .title{
+            //         font-size: 48px;
+            //         line-height: 68px;
+            //     }
+
+            // }
+
+        }
+    }
+    .about-products{
+        background: #163A24;
+        width: 1440px;
+        height: 568px;
+        padding: 66px 10px;
+        color: #fff;
+        text-align: center;
+
+        
+        
+ 
+    }
+    .employers{
+        text-align: center;
+        width: 1440px;
+        height: 775px;
+        background: #F2EFE6;
+        padding: 114px 140px;
+        color: rgba(22, 58, 36, 1);
+        
+        .big{
+            margin-bottom: 27px;
+        }
+
+    }
+    .something{
+        padding: 180px 130px;
+    }
+}
